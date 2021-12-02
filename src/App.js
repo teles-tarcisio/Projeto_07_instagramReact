@@ -1,12 +1,12 @@
 import Navbar from "./components/navbar/Navbar.js";
-import Body from "./components/Body.js";
+import CustomBody from "./components/CustomBody.js";
 import MobileBackground from "./components/mobileBackground/MobileBackground.js";
 
 export default function App() {
     return (
         <div>
             <Navbar/>
-            <Body/>
+            <CustomBody/>
             <MobileBackground/>
         </div>
     );

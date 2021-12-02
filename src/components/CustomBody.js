@@ -1,9 +1,9 @@
 import LeftSide from "./leftSide/LeftSide.js";
 import Sidebar from "./sidebar/Sidebar.js";
 
-export default function Body() {
+export default function CustomBody() {
     return (
-        <div className="body">
+        <div className="custom-body">
             <LeftSide />
             <Sidebar />
         </div>
