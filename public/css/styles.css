@@ -5,11 +5,6 @@
 body {
   background-color: #FAFAFA;
   font-family: 'Roboto', sans-serif;
-  
-  margin: 54px 0;
-  color: #262626;
-  font-weight: 400;
-  font-size: 14px;
 }
 
 .top-fixed-ribbon {
@@ -19,6 +14,48 @@ body {
   top: 0;
   background-color: #FFFFFF;
   border: 1px solid #DBDBDB;
-display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
 
+.top-bar-content {
+  width: 100%; /* 935px ??? */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-bar-content ion-icon {
+  font-size: 28px;
+}
+.top-bar-content input {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.top-bar_logos {
+  margin: 0 auto 0 0;
+  display: flex;
+  align-items: center;
+}
+.top-bar_icons {
+  margin: 0 0 0 auto;
+}
+
+.logo-vert-spacer {
+  height: 100%; /* 22px; ??? */
+  width: 1px;
+  margin: 0 10px 0 10px;
+  background-color: #DBDBDB;
+}
+
+.main-container {
+  width: 935px;
+  margin: 88px auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
 }
