@@ -113,8 +113,11 @@ body {
   border-radius: 50%;
 }
 .story p {
+  width: 78px;
   margin: auto auto 0 auto;
   text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .stories-arrow {
   width: 26px;
