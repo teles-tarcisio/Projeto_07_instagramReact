@@ -1,13 +1,12 @@
-import Navbar from "./components/navbar/Navbar.js";
-import CustomBody from "./components/CustomBody.js";
-import MobileBackground from "./components/mobileBackground/MobileBackground.js";
+import Topbar from "./components/topbar/Topbar.js";
+import MainContainer from "./components/mainContainer/MainContainer.js";
+
 
 export default function App() {
     return (
         <div>
-            <Navbar/>
-            <CustomBody/>
-            <MobileBackground/>
+            <Topbar/>
+            <MainContainer/>
         </div>
     );
 }
