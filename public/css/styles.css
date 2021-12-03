@@ -128,3 +128,33 @@ body {
   box-shadow: 0 4px 4px 1px #9E9E9E;
   border-radius: 50%;
 }
+
+.post-frame {
+  width: 100%;
+  height: 749px;
+  background-color: #FFFFFF;
+  border: 1px solid #DBDBDB;
+  border-radius: 3px;
+  margin: 0 0 36px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post-top {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.post-top .who-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin: 0 7.5px 0 17px;
+}
