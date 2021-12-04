@@ -151,10 +151,73 @@ body {
   padding-left: 18px;
   padding-right: 18px;
 }
-
 .post-top .who-avatar {
   width: 32px;
   height: 32px;
   border-radius: 50%;
   margin: 0 7.5px 0 17px;
+}
+.post-top p {
+  margin: 0 0 0 7.5px;
+}
+.post-top ion-icon {
+  font-size: 12px;
+  margin: 0 0 0 auto;
+  color: #262626;
+}
+
+.post-img {
+  width: 100%;
+}
+
+.post-frame video {
+  margin: auto;
+  width: 100%;
+}
+
+.post-bottom {
+  width: 100%;
+  height: 76px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post-icons {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+}
+.post-icons ion-icon {
+  margin: 0 18px 0 0;
+}
+.post-icons .icon-heart {
+  margin-left: 18px;
+}
+.post-icons .icon-bookmark {
+  margin-left: 440px;
+}
+
+.post-likes {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 300;
+}
+.post-likes span {
+  font-weight: 500;
+}
+.post-likes img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 5px 0 18px;
 }
