@@ -12,7 +12,7 @@ function PostIcons() {
 function PostLikes(props) {
     return (
         <div className="post-likes">
-            <img className="who-avatar" src={props.whoLikesAvatar} />
+            <img className="who-avatar" src={props.whoLikesAvatar} alt="who likes avatar"/>
             <p>Curtido por <span>(props aqui?)</span> e <span>outras (props aqui tbm?)</span></p>
         </div>
     );
