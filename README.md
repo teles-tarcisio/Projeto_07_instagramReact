@@ -1,4 +1,5 @@
-## Project Page: https://teles-tarcisio.github.io/Projeto_07_instagramReact/
+## Project Page:
+https://teles-tarcisio.github.io/Projeto_07_instagramReact/
 
 # Getting Started with Create React App
 

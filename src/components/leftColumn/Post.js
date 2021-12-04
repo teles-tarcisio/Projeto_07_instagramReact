@@ -1,10 +1,10 @@
 function PostIcons() {
     return (
         <div className="post-icons">
-            <ion-icon name="heart-outline" />
+            <ion-icon className="icon-heart" name="heart-outline" />
             <ion-icon name="chatbubble-outline" />
             <ion-icon name="paper-plane-outline" />
-            <ion-icon name="bookmark-outline" />
+            <ion-icon className="icon-bookmark" name="bookmark-outline" />
         </div>
     );
 }
