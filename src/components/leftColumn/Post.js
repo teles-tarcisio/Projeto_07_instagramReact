@@ -46,7 +46,7 @@ function VideoPost(props) {
                 <ion-icon name="ellipsis-horizontal"></ion-icon>
                 </div>
 
-                <video autoplay loop muted>
+                <video controls loop autoplay muted>
                     <source src="assets/videos/video.mp4" />
                     <source src="assets/videos/video.ogv" />
                     Seu navegador não suporta esse video!

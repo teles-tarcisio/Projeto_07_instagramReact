@@ -225,6 +225,9 @@ body {
 .right-column {
   width: 293px;
   display: flex;
+  position: fixed;
+  top: 12%;
+  left: 68%;
   flex-direction: column;
 }
 
