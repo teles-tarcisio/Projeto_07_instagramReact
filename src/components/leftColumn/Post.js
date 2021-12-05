@@ -60,4 +60,4 @@ function VideoPost(props) {
     );
 }
 
-export { PostIcons, PostLikes, Post, VideoPost };
+export { Post, VideoPost };

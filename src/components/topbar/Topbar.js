@@ -23,8 +23,8 @@ function TopbarLogos() {
 
 export default function Topbar() {
     return (
-        <div classNameName="top-fixed-ribbon">
-            <div classNameName="top-bar-content">
+        <div className="top-fixed-ribbon">
+            <div className="top-bar-content">
                 <TopbarLogos />
 
                 <input type="text" placeholder="Pesquisar" />

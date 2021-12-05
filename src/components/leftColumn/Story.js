@@ -1,5 +1,4 @@
 export default function Story(props) {
-    
     return (
         <li className="story">
             <img className="story-bgframe" src="assets/images/stories_background.jpg" alt ="story background circle"/>

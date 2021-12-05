@@ -21,7 +21,7 @@ body {
 }
 
 .top-bar-content {
-  max-width: 935px;
+  width: 935px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -45,7 +45,7 @@ body {
 }
 
 .logo-vert-spacer {
-  height: 22px; /* 100%; ??? */
+  height: 22px;
   width: 1px;
   margin: 0 10px 0 10px;
   background-color: #DBDBDB;
@@ -87,7 +87,6 @@ body {
   height: 90px;
   overflow: hidden;
   display: inline-flex;
-  background-color: orange;
   justify-content: space-between;
 }
 
@@ -220,4 +219,103 @@ body {
   height: 20px;
   border-radius: 50%;
   margin: 0 5px 0 18px;
+}
+
+
+.right-column {
+  width: 293px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.sidebar-myprofile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 24px auto 24px 0;
+  font-size: 14px;
+}
+.sidebar-myprofile h1 {
+  font-weight: 300;
+  color: #8E8E8E;
+}
+.sidebar-myprofile img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin-right: 17px;
+}
+
+.sidebar-suggestions {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0 0 17px 0;
+}
+.sidebar-suggestions h1 {
+  color: #8E8E8E;
+}
+.sidebar-suggestions p {
+  color: #262626;
+}
+
+.sidebar-profile {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  margin: 0 0 15px 0;
+}
+.sidebar-profile h1 {
+  font-weight: 500;
+  color: #262626;
+}
+.sidebar-profile h2 {
+  font-weight: 500;
+  color: #139EF2;
+  margin: 0 0 0 auto;
+}
+.sidebar-profile p {
+  font-family: 400;
+  color: #8E8E8E;
+}
+
+.right-side-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 33px auto 0 0;
+}
+.right-side-text p {
+  margin-bottom: 18px;
+  font-size: 11px;
+  font-weight: 400;
+  color: #C7C7C7;
+}
+
+.bottom-mobile {
+  display: none;
+}
+
+@media (max-width: 935px) {
+  .right-column {
+    display: none;
+  }
+
+  .top-bar {
+    width: 100vw;
+    height: 54px;
+  }
 }
