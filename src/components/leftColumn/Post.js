@@ -10,39 +10,44 @@ function PostIcons() {
 }
 
 function PostLikes(props) {
+    console.log("PostLikes props", props);
+    const {likedAvatar, likedName, likedQtty} = props;
     return (
         <div className="post-likes">
-            <img className="who-avatar" src={props.whoLikesAvatar} alt="who likes avatar"/>
-            <p>Curtido por <span>(props aqui?)</span> e <span>outras (props aqui tbm?)</span></p>
+            <img className="who-avatar" src={likedAvatar} alt="who likes avatar"/>
+            <p>Curtido por <span>{likedName}</span> e <span>outras {likedQtty} pessoas</span></p>
         </div>
     );
 }
 
 function Post(props) {
+    console.log("Post props:", props);
+    const {userAvatar, userName, image, likedAvatar, likedName, likedQtty} = props;
+
     return (
         <li className="post-frame">
             <div className="post-top">
-                <img className="who-avatar" src={props.userAvatar} alt="original poster avatar" />
-                <p>{props.userName}</p>
+                <img className="who-avatar" src={userAvatar} alt="original poster avatar" />
+                <p>{userName}</p>
                 <ion-icon name="ellipsis-horizontal"></ion-icon>
             </div>
 
-            <img className="post-img" src={props.image} alt="main subject" />
+            <img className="post-img" src={image} alt="main subject" />
 
             <div className="post-bottom">
                 <PostIcons />
-                <PostLikes />
+                <PostLikes likedAvatar={likedAvatar} likedName={likedName} likedQtty={likedQtty}/>
             </div>
         </li>
     );
 }
 
-function VideoPost(props) {
+function VideoPost({userAvatar, userName, likedAvatar, likedName, likedQtty}) {
     return (
         <li className="post-frame">
             <div className="post-top">
-                <img className="who-avatar" src={props.userAvatar} alt="original poster avatar" />
-                <p>{props.userName}</p>
+                <img className="who-avatar" src={userAvatar} alt="original poster avatar" />
+                <p>{userName}</p>
                 <ion-icon name="ellipsis-horizontal"></ion-icon>
                 </div>
 
@@ -54,7 +59,7 @@ function VideoPost(props) {
 
             <div className="post-bottom">
                 <PostIcons />
-                <PostLikes />
+                <PostLikes likedAvatar={likedAvatar} likedName={likedName} likedQtty={likedQtty}/>
             </div>
         </li>
     );
