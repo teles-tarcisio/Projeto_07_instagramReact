@@ -3,7 +3,7 @@ import Suggestions from "./Suggestions.js";
 function SidebarMyProfile() {
     return (
         <div className="sidebar-myprofile">
-            <img src="assets/images/catanacomics.jpg" alt="user avatar" />
+            <img src="assets/images/catanacomics.svg" alt="user avatar" />
 
             <div className="profile-name">
                 <h1>catanacaomics</h1>

@@ -7,6 +7,18 @@ const suggestionsArray = [
     {
         profileName: "chibirdart",
         profilePicture: "assets/images/chibirdart.svg",
+    },
+    {
+        profileName: "razoesparaacreditar",
+        profilePicture: "assets/images/razoesparaacreditar.svg"
+    },
+    {
+        profileName: "adorable_animals",
+        profilePicture: "assets/images/adorable_animals.svg"
+    },
+    {
+        profileName: "smallcutecats",
+        profilePicture: "assets/images/smallcutecats.svg"
     }
 ];
 

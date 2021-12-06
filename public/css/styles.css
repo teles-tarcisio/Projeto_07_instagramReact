@@ -250,6 +250,10 @@ body {
   font-weight: 300;
   color: #8E8E8E;
 }
+.sidebar-myprofile p {
+  font-weight: 300;
+  color: #8e8e8e;
+}
 .sidebar-myprofile img {
   width: 56px;
   height: 56px;
@@ -279,6 +283,12 @@ body {
   display: flex;
   align-items: center;
   margin: 0 0 15px 0;
+}
+.sidebar-profile img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 17px;
 }
 .sidebar-profile h1 {
   font-weight: 500;
