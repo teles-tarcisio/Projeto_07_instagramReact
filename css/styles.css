@@ -334,6 +334,8 @@ body {
   
   .main-container {
     width: 100vw;
+    margin-left: 12%;
+    margin-right: 12%;
     align-items: center;
     justify-content: center;
   }
@@ -342,7 +344,7 @@ body {
   }
 }
 
-/*    =====LAYOUT MOBILE=====   */
+
 @media (max-width: 614px) {
   .top-bar {
     width: 100vw;
@@ -400,14 +402,12 @@ body {
     flex-direction: row;
   }
   
-  /*    =====LADO ESQUERDO=====   */
   .left-column {
     width: 100vw;
     display: flex;
     flex-direction: column;
   }
   
-  /*    =====RIBBON DE STORIES=====   */
   .stories-ribbon {
     width: 100vw;
     height: 118px;
