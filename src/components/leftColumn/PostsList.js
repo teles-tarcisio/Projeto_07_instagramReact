@@ -2,26 +2,40 @@ import {Post, VideoPost} from "./Post.js";
 
 const postsArray = [
     {
-        postUserAvatar: "assets/images/barked.jpg",
-        postUserName: "barked",
-        postImage: "assets/images/dog.jpg"
+        userAvatar: "assets/images/barked.svg",
+        userName: "barked",
+        mainImage: "assets/images/dog.jpg",
+        likedAvatar: "assets/images/meowed.svg",
+        likedName: "meowed",
+        likedQtty: "99.243"
     },
     {
-        postUserAvatar: "assets/images/meowed.jpg",
-        postUserName: "meowed",
-        postImage: "assets/images/gato-telefone.svg"
+        userAvatar: "assets/images/meowed.svg",
+        userName: "meowed",
+        mainImage: "assets/images/gato-telefone.svg",
+        likedAvatar: "assets/images/meowed.svg",
+        likedName: "meowed",
+        likedQtty: "5.212"
     }    
 ];
+
+const videoPostData = {
+    userAvatar: "assets/images/barked.svg",
+    userName: "ramiro",
+    likedAvatar: "assets/images/meowed.svg",
+    likedName: "barked",
+    likedQtty: "12.735"
+};
 
 export default function PostsList() {
     return (
         <ul className="posts-list">
             { postsArray.map( post => 
-            <Post userAvatar={post.postUserAvatar}
-            userName={post.postUserName}
-            image={post.postImage} />)}
+            <Post userAvatar={post.userAvatar}
+            userName={post.userName}
+            image={post.mainImage} likedAvatar={post.likedAvatar} likedName={post.likedName} likedQtty={post.likedQtty}/>)}
 
-            <VideoPost />
+            <VideoPost videoProps={videoPostData}/>
         </ul>
     );
 }
