@@ -7,7 +7,7 @@ export default function MainContainer() {
         <div className="main-container">
             <LeftColumn />
             <RightColumn />
-            {/* <BottomMobile /> */}
+            <BottomMobile />
         </div>
     );
 }
