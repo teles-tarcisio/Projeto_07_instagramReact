@@ -15,7 +15,7 @@ function PostLikes(props) {
     return (
         <div className="post-likes">
             <img className="who-avatar" src={likedAvatar} alt="who likes avatar"/>
-            <p>Curtido por <span>{likedName}</span> e <span>outras {likedQtty}</span></p>
+            <p>Curtido por <span>{likedName}</span> e <span>outras {likedQtty} pessoas</span></p>
         </div>
     );
 }
